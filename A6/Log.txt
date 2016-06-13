@@ -1,0 +1,114 @@
+#   #   #   #   #   #   #   #   #   #   #   #
+Kalamazoo (-1) TO Berlin (2)
+ERROR - one city is NOT on this map
+#   #   #   #   #   #   #   #   #   #   #   #
+Munich (11) TO GrandRapids (-1)
+ERROR - one city is NOT on this map
+#   #   #   #   #   #   #   #   #   #   #   #
+Rome (15) TO Rome (15)
+DISTANCE: 0
+PATH:  Rome
+TRACE OF TARGETS: 
+# TARGETS: 0
+#   #   #   #   #   #   #   #   #   #   #   #
+Paris (13) TO Warsaw (18)
+DISTANCE: 1254
+PATH:  Paris > Brussels > Amsterdam > Hamburg > Berlin > Warsaw
+TRACE OF TARGETS: BRU AMS GEN BRN HAM MAD COP BER MUN ROM TRI PRG NAP LIS VIE WAR 
+# TARGETS: 16
+#   #   #   #   #   #   #   #   #   #   #   #
+Warsaw (18) TO Paris (13)
+DISTANCE: 1254
+PATH:  Warsaw > Berlin > Hamburg > Amsterdam > Brussels > Paris
+TRACE OF TARGETS: BER BUD VIE PRG HAM MUN BEL COP TRI AMS BRN BRU GEN ROM PAR 
+# TARGETS: 15
+#   #   #   #   #   #   #   #   #   #   #   #
+Brussels (4) TO Belgrade (1)
+DISTANCE: 1388
+PATH:  Brussels > Amsterdam > Munich > Vienna > Budapest > Belgrade
+TRACE OF TARGETS: AMS PAR BRN HAM COP BER MUN GEN PRG VIE TRI WAR MAD ROM BUD NAP LIS BEL 
+# TARGETS: 18
+#   #   #   #   #   #   #   #   #   #   #   #
+Belgrade (1) TO Brussels (4)
+DISTANCE: 1388
+PATH:  Belgrade > Budapest > Vienna > Munich > Amsterdam > Brussels
+TRACE OF TARGETS: BUD TRI VIE PRG WAR MUN GEN BER ROM BRN NAP HAM COP AMS BRU 
+# TARGETS: 15
+#   #   #   #   #   #   #   #   #   #   #   #
+Naples (12) TO Warsaw (18)
+DISTANCE: 1354
+PATH:  Naples > Rome > Trieste > Budapest > Warsaw
+TRACE OF TARGETS: ROM GEN TRI MUN BRN PRG VIE BUD BEL PAR BER BRU AMS HAM WAR 
+# TARGETS: 15
+#   #   #   #   #   #   #   #   #   #   #   #
+Warsaw (18) TO Naples (12)
+DISTANCE: 1354
+PATH:  Warsaw > Budapest > Trieste > Rome > Naples
+TRACE OF TARGETS: BER BUD VIE PRG HAM MUN BEL COP TRI AMS BRN BRU GEN ROM PAR NAP 
+# TARGETS: 16
+#   #   #   #   #   #   #   #   #   #   #   #
+Amsterdam (0) TO Brussels (4)
+DISTANCE: 164
+PATH:  Amsterdam > Brussels
+TRACE OF TARGETS: BRU 
+# TARGETS: 1
+#   #   #   #   #   #   #   #   #   #   #   #
+Amsterdam (0) TO Bern (3)
+DISTANCE: 661
+PATH:  Amsterdam > Brussels > Bern
+TRACE OF TARGETS: BRU HAM PAR COP BER MUN BRN 
+# TARGETS: 7
+#   #   #   #   #   #   #   #   #   #   #   #
+Belgrade (1) TO Prague (14)
+DISTANCE: 603
+PATH:  Belgrade > Budapest > Vienna > Prague
+TRACE OF TARGETS: BUD TRI VIE PRG 
+# TARGETS: 4
+#   #   #   #   #   #   #   #   #   #   #   #
+Brussels (4) TO Budapest (5)
+DISTANCE: 1125
+PATH:  Brussels > Amsterdam > Munich > Vienna > Budapest
+TRACE OF TARGETS: AMS PAR BRN HAM COP BER MUN GEN PRG VIE TRI WAR MAD ROM BUD 
+# TARGETS: 15
+#   #   #   #   #   #   #   #   #   #   #   #
+Rome (15) TO Berlin (2)
+DISTANCE: 975
+PATH:  Rome > Munich > Prague > Berlin
+TRACE OF TARGETS: NAP GEN TRI MUN BRN PRG VIE BUD BEL PAR BER 
+# TARGETS: 11
+#   #   #   #   #   #   #   #   #   #   #   #
+Vienna (17) TO Belgrade (1)
+DISTANCE: 418
+PATH:  Vienna > Budapest > Belgrade
+TRACE OF TARGETS: BUD PRG MUN TRI BER BEL 
+# TARGETS: 6
+#   #   #   #   #   #   #   #   #   #   #   #
+Lisbon (9) TO Warsaw (18)
+DISTANCE: 2398
+PATH:  Lisbon > Madrid > Paris > Brussels > Amsterdam > Hamburg > Berlin > Warsaw
+TRACE OF TARGETS: MAD PAR GEN BRU BRN AMS ROM TRI NAP MUN HAM PRG VIE BUD COP BER BEL WAR 
+# TARGETS: 18
+#   #   #   #   #   #   #   #   #   #   #   #
+Vienna (17) TO Belgrade (1)
+DISTANCE: 418
+PATH:  Vienna > Budapest > Belgrade
+TRACE OF TARGETS: BUD PRG MUN TRI BER BEL 
+# TARGETS: 6
+#   #   #   #   #   #   #   #   #   #   #   #
+London (20) TO Paris (13)
+DISTANCE: ?
+PATH: SORRY -  can NOT get to destination city from start city
+TRACE OF TARGETS: 
+# TARGETS: 0
+#   #   #   #   #   #   #   #   #   #   #   #
+Budapest (5) TO Dublin (19)
+DISTANCE: ?
+PATH: SORRY -  can NOT get to destination city from start city
+TRACE OF TARGETS: VIE BEL PRG TRI WAR MUN BER HAM GEN BRN ROM COP NAP AMS BRU PAR MAD LIS 
+# TARGETS: 18
+#   #   #   #   #   #   #   #   #   #   #   #
+Dublin (19) TO Budapest (5)
+DISTANCE: ?
+PATH: SORRY -  can NOT get to destination city from start city
+TRACE OF TARGETS: 
+# TARGETS: 0
