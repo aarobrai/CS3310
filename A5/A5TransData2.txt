@@ -1,0 +1,7 @@
+S ZAP
+S BAR
+S HOT
+S ZIP
+S ABE
+S RAN
+S RUN

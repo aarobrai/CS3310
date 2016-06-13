@@ -1,0 +1,68 @@
+01 BOX o bits     10001
+02 DVD player     10002
+03 GET going      10003
+04 IKE for Pres   10004
+05 JAR of jam     10005
+06 LAM and Mary   10006
+07 RAN a race     10007
+00 XXX xxxxxxxxxx 00000
+00 XXX xxxxxxxxxx 00000
+10 RUN spot run   10010
+11 ALL in fun     10011
+12 BUN n burger   10012
+13 FAN for life   10013
+14 FAR away       10014
+15 FAT Btree      10015
+16 FIR tree       10016
+17 FIX an iPod    10017
+18 FUN fair       10018
+19 GIG a RAM      10019
+20 SAM Spade      10020
+21 BEG borrow     10021
+22 AMY Adams      10022
+23 CAM era        10023
+24 YOU & me       10024
+25 DOG days       10025
+26 EEK , a mouse  10026
+27 EGG & bacon    10027
+28 HUB usb        10028
+29 GOT cha        10029
+30 TAN ner        10030
+31 ZIP per        10031
+32 INK blot       10032
+33 AND OR NOT     10033
+34 CAT nip        10034
+35 JAM jar        10035
+36 ITS summer     10036
+37 ART for life   10037
+38 IMP ish        10038
+39 GUY & girl     10039
+40 TON o bricks   10040
+41 LAN network    10041
+42 LAP top        10042
+43 LIP stick      10043
+44 MAN ners       10044
+45 CON man        10045
+46 MET a man      10046
+00 XXX xxxxxxxxxx 00000
+48 DIP chips      10048
+49 HAM spam       10049
+50 TOP spin       10050
+00 XXX xxxxxxxxxx 00000
+00 XXX xxxxxxxxxx 00000
+53 WMU Western    10053
+54 BAT & ball     10054
+55 ASK Jeeves     10055
+56 CPU processor  10056
+57 HEM lock       10057
+00 XXX xxxxxxxxxx 00000
+00 XXX xxxxxxxxxx 00000
+60 KIT kat        10060
+61 KZO kalamazoo  10061
+62 KIM berley     10062
+63 XXX xxxxxxxxxx 00000
+64 JUT e          10064
+00 XXX xxxxxxxxxx 10065
+66 JOT down       10066
+67 DAT fat sat    10067
+68 JET set        10068

@@ -1,0 +1,70 @@
+01 ARE you there  49123
+02 BUG in program 49124
+03 ANN Oakley     49125
+04 ANT hill       49126
+05 BOT as in Ro   49127
+06 SAT awhile     49128
+07 ART Hop        49129
+08 THE Dog        49130
+09 AND so on      49131
+10 IMP ish        49132
+11 FIT for a king 49133
+12 HOT and now    49134
+13 OWN a Kindle   49135
+14 JAM n bread    49136
+15 GET a life     49137
+16 FAN of mine    49138
+17 JET stream     49139
+18 CON artist     49140
+19 APT #2         49141
+20 CAM corder     49142
+21 CAT n mouse    49143
+22 EEK a mouse    49144
+23 DAT a          49145
+24 GIG a byte     49146
+25 HIP hop        49147
+26 DVD or CD      49148
+27 RAM 2 GB       49149
+28 ROM memory     49150
+29 USA for me     49151
+30 YOU & me       49152
+31 WAN t a coffee 49153
+32 ZEN life       49154
+33 WWW web        49155
+34 TWO and 2      49156
+35 RAT you dirty  49157
+36 SAM Space      49158
+37 INK blot       49159
+38 SYS tem        49160
+39 TAN gerine     49161
+40 ALL for 1      49162
+41 BAT & ball     49163
+42 BAM Bam        49164
+43 BEG for candy  49165
+44 BUN hotdog     49166
+45 AMY Winehouse  49167
+46 DOG & cat      49168
+47 CPU processor  49169
+48 FAT BTree      49170
+49 NOT really     49171
+50 RED wine       49172
+51 SUN down       49173
+52 VAT of wine    49174
+53 VEG itable     49175
+54 WOW wie        49176
+55 WEB world wide 49177
+56 YUP yes,yeah   49178
+57 HOP hip        49179
+58 GOT cha        49180
+59 HAT & coat     49181
+60 ITS a computer 49182
+61 YES sir        49183
+62 ZIP code       49184
+63 ZAK Smith      49185
+64 USE your brain 49186
+65 TON of work    49187
+66 ONE for all    49188
+67 ICE cream      49189
+68 HAM n eggs     49190
+69 EGG plant      49191
+70 DIP and chips  49192
