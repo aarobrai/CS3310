@@ -1,0 +1,291 @@
+-->> OPENED log file
+
+-->> SETUP started
+-->>Opened RawDataAZ.csv file
+-->>RawData finished- processed 26 records
+-->>CLOSED RawDataAZ.csv file
+-->> SETUP completed
+-->> CLOSED log file
+
+-->> PRETTYPRINT started
+RootPtr is 00, N is 26, NextEmptyPtr is 26
+
+LOC> LCH RCH CDE ID- NAME-------------------- CONTINENT---- ------AREA ---POPULATION LIFE
+000> 001 003 MEX 012 Mexico                   North America  1,958,201    98,881,000 71.5
+001> 005 002 CHN 003 China                    Asia           9,572,900 1,277,558,000 71.4
+002> 004 013 JPN 009 Japan                    Asia             377,829   126,714,000 80.7
+003> 009 008 USA 006 United States            North America  9,363,520   278,357,000 77.1
+004> 012 006 FRA 019 France                   Europe           551,500    59,225,700 78.8
+005> 025 -01 BEL 027 Belgium                  Europe            30,518    10,239,000 77.8
+006> -01 007 GBR 017 United Kingdom           Europe           242,900    59,623,400 77.7
+007> -01 014 HTI 030 Haiti                    North America     27,750     8,222,000 49.2
+008> -01 011 VEN 022 Venezuela                South America    912,050    24,170,000 73.1
+009> -01 010 NIC 031 Nicaragua                North America    130,000     5,074,000 68.7
+010> 015 017 POL 020 Poland                   Europe           323,250    38,653,600 73.2
+011> 018 022 YEM 024 Yemen                    Asia             527,968    18,112,000 59.8
+012> 016 -01 EGY 015 Egypt                    Africa         1,001,449    68,470,000 63.3
+013> 019 -01 LBN 032 Lebanon                  Asia              10,400     3,282,000 71.3
+014> -01 -01 IND 004 India                    Asia           3,287,263 1,013,662,000 62.5
+015> -01 -01 OMN 033 Oman                     Asia             309,500     2,542,000 71.8
+016> -01 -01 DEU 013 Germany                  Europe           357,022    82,164,700 77.4
+017> 021 024 SOM 028 Somalia                  Africa           637,657    10,097,000 46.2
+018> -01 020 WSM 036 Samoa                    Oceania            2,831       180,000 69.2
+019> -01 -01 KEN 021 Kenya                    Africa           580,367    30,080,000 48.0
+020> -01 -01 XVI 001 Hex Land                 North America          1 1,966,514,816  0.0
+021> -01 023 QAT 035 Qatar                    Asia              11,000       599,000 72.4
+022> -01 -01 ZWE 025 Zimbabwe                 Africa           390,757    11,669,000 37.8
+023> -01 -01 RUS 008 Russian Federation       Europe        17,075,400   146,934,000 67.2
+024> -01 -01 TCA 037 Turks and Caicos Islands North America        430        17,000 73.3
+025> -01 -01 ATA 039 Antarctica               Antarctica    13,120,000             0  0.0
+===========================
+-->> PRETTY PRINT finished
+-->> OPENED log file
+
+-->>USERAPP started
+Ok, Mexico inserted. 0 nodes visited
+Ok, China inserted. 1 nodes visited
+Ok, Japan inserted. 2 nodes visited
+Ok, United States inserted. 1 nodes visited
+Ok, France inserted. 3 nodes visited
+Ok, Belgium inserted. 2 nodes visited
+Ok, United Kingdom inserted. 4 nodes visited
+Ok, Haiti inserted. 5 nodes visited
+Ok, Venezuela inserted. 2 nodes visited
+Ok, Nicaragua inserted. 2 nodes visited
+Ok, Poland inserted. 3 nodes visited
+Ok, Yemen inserted. 3 nodes visited
+Ok, Egypt inserted. 4 nodes visited
+Ok, Lebanon inserted. 3 nodes visited
+Ok, India inserted. 6 nodes visited
+Ok, Oman inserted. 4 nodes visited
+Ok, Germany inserted. 5 nodes visited
+Ok, Somalia inserted. 4 nodes visited
+Ok, Samoa inserted. 4 nodes visited
+Ok, Kenya inserted. 4 nodes visited
+Ok, Hex Land inserted. 5 nodes visited
+Ok, Qatar inserted. 5 nodes visited
+Ok, Zimbabwe inserted. 4 nodes visited
+Ok, Russian Federation inserted. 6 nodes visited
+Ok, Turks and Caicos Islands inserted. 5 nodes visited
+Ok, Antarctica inserted. 3 nodes visited
+S MEX >> 0 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+MEX 12  Mexico             North America    1958201      98881000 71.5
+S ATA >> 3 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+ATA 39  Antarctica         Antarctica      13120000             0 0.0
+S ZWE >> 4 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+ZWE 25  Zimbabwe           Africa            390757      11669000 37.8
+S IND >> 6 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+IND 4   India              Asia             3287263    1013662000 62.5
+S POL >> 3 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+POL 20  Poland             Europe            323250      38653600 73.2
+S LBN >> 3 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+LBN 32  Lebanon            Asia               10400       3282000 71.3
+S VEN >> 2 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+VEN 22  Venezuela          South America     912050      24170000 73.1
+S OMN >> 4 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+OMN 33  Oman               Asia              309500       2542000 71.8
+S GBR >> 4 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+GBR 17  United Kingdom     Europe            242900      59623400 77.7
+S AAA >> INVALID COUNTRY CODE 
+
+S AXE >> INVALID COUNTRY CODE 
+
+S RUT >> INVALID COUNTRY CODE 
+
+S GOD >> INVALID COUNTRY CODE 
+
+S GAP >> INVALID COUNTRY CODE 
+
+S PAN >> INVALID COUNTRY CODE 
+
+S PUT >> INVALID COUNTRY CODE 
+
+S MIX >> INVALID COUNTRY CODE 
+
+S MAX >> INVALID COUNTRY CODE 
+
+S mex >> INVALID COUNTRY CODE 
+
+S ata >> INVALID COUNTRY CODE 
+
+S rus >> INVALID COUNTRY CODE 
+
+S 123 >> INVALID COUNTRY CODE 
+
+S ### >> INVALID COUNTRY CODE 
+
+S ::: >> INVALID COUNTRY CODE 
+
+S [[[ >> INVALID COUNTRY CODE 
+
+S {{{ >> INVALID COUNTRY CODE 
+
+A >>
+ATA 39  Antarctica         Antarctica      13120000             0 0.0
+BEL 27  Belgium            Europe             30518      10239000 77.8
+CHN 3   China              Asia             9572900    1277558000 71.4
+DEU 13  Germany            Europe            357022      82164700 77.4
+EGY 15  Egypt              Africa           1001449      68470000 63.3
+FRA 19  France             Europe            551500      59225700 78.8
+GBR 17  United Kingdom     Europe            242900      59623400 77.7
+HTI 30  Haiti              North America      27750       8222000 49.2
+IND 4   India              Asia             3287263    1013662000 62.5
+JPN 9   Japan              Asia              377829     126714000 80.7
+KEN 21  Kenya              Africa            580367      30080000 48.0
+LBN 32  Lebanon            Asia               10400       3282000 71.3
+MEX 12  Mexico             North America    1958201      98881000 71.5
+NIC 31  Nicaragua          North America     130000       5074000 68.7
+OMN 33  Oman               Asia              309500       2542000 71.8
+POL 20  Poland             Europe            323250      38653600 73.2
+QAT 35  Qatar              Asia               11000        599000 72.4
+RUS 8   Russian Federation Europe          17075400     146934000 67.2
+SOM 28  Somalia            Africa            637657      10097000 46.2
+TCA 37  Turks and Caicos Islands North America        430         17000 73.3
+USA 6   United States      North America    9363520     278357000 77.1
+VEN 22  Venezuela          South America     912050      24170000 73.1
+WSM 36  Samoa              Oceania             2831        180000 69.2
+XVI 1   Hex Land           North America          1    1966514816 0.0
+YEM 24  Yemen              Asia              527968      18112000 59.8
+ZWE 25  Zimbabwe           Africa            390757      11669000 37.8
+D KEN >> ok, Kenya deleted. 4 nodes visited
+D OMN >> ok, Oman deleted. 4 nodes visited
+D SOM >> ok, Somalia deleted. 4 nodes visited
+D JPN >> ok, Japan deleted. 2 nodes visited
+D YEM >> ok, Yemen deleted. 3 nodes visited
+D FRA >> ok, France deleted. 3 nodes visited
+D RUS >> ok, Russian Federation deleted. 6 nodes visited
+D ZWE >> ok, Zimbabwe deleted. 4 nodes visited
+D MEX >> ok, Mexico deleted. 0 nodes visited
+D WMU >> INVALID COUNTRY CODE
+D ABC >> INVALID COUNTRY CODE
+D ZZZ >> INVALID COUNTRY CODE
+D MEX >> INVALID COUNTRY CODE
+D KEN >> INVALID COUNTRY CODE
+D FRA >> INVALID COUNTRY CODE
+S KEN >> INVALID COUNTRY CODE 
+
+S OMN >> INVALID COUNTRY CODE 
+
+S SOM >> INVALID COUNTRY CODE 
+
+S JPN >> INVALID COUNTRY CODE 
+
+S YEM >> INVALID COUNTRY CODE 
+
+S FRA >> INVALID COUNTRY CODE 
+
+S RUS >> INVALID COUNTRY CODE 
+
+S ZWE >> INVALID COUNTRY CODE 
+
+S MEX >> INVALID COUNTRY CODE 
+
+S DEU >> 5 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+DEU 13  Germany            Europe            357022      82164700 77.4
+S IND >> 6 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+IND 4   India              Asia             3287263    1013662000 62.5
+S XVI >> 5 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+XVI 1   Hex Land           North America          1    1966514816 0.0
+Ok, ABETTERCOUNTRY inserted. 4 nodes visited
+Ok, ZONEYOURXRAY inserted. 5 nodes visited
+Ok, RANDOM inserted. 7 nodes visited
+Ok, RUTABAGA inserted. 7 nodes visited
+Ok, ICECREAMSANDWICH inserted. 7 nodes visited
+Ok, IOWEYOU inserted. 7 nodes visited
+Ok, KAPISTAN inserted. 5 nodes visited
+Ok, KUPERTINO inserted. 5 nodes visited
+Ok, KAACHEW inserted. 6 nodes visited
+Ok, KALAMAZOOZOO inserted. 6 nodes visited
+Ok, IAMAPPLE inserted. 8 nodes visited
+Ok, IZOOZOO inserted. 8 nodes visited
+S ABC >> 4 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+ABC 40  ABETTERCOUNTRY     Europe         123456789    1234567890 82.9
+S ZYX >> 5 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+ZYX 41  ZONEYOURXRAY       Asia                 100         98765 25.0
+S RAN >> 7 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+RAN 42  RANDOM             Asia           248248248    9876543210 29.2
+S RUT >> 7 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+RUT 43  RUTABAGA           Africa          98769876         88888 30.1
+S ICE >> 7 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+ICE 50  ICECREAMSANDWICH   Asia           121212121     999999999 60.0
+S IOU >> 7 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+IOU 51  IOWEYOU            North America   10101010     900800700 71.5
+S KAP >> 5 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+KAP 55  KAPISTAN           South America   44884488       -->> OPENED log file
+
+-->> OPENED TransData.txt file
+-->>TransData processing finished- 82 transactions processed
+-->> CLOSED TransData file
+-->> CLOSED log file
+
+ 345678 63.8
+S KUP >> 5 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+KUP 56  KUPERTINO          North America     246246    1234567890 75.9
+S KAA >> 6 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+KAA 57  KAACHEW            Africa            987987      10000000 41.4
+S KZZ >> 6 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+KZZ 58  KALAMAZOOZOO       North America  100200300    9876543210 68.9
+S IAA >> 8 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+IAA 59  IAMAPPLE           Oceania               10            25 30.1
+S IZZ >> 8 nodes visited
+CDE ID- NAME-------------- CONTINENT---- ------AREA ---POPULATION LIFE 
+IZZ 60  IZOOZOO            Antarctica             0             0 0.0
+D ABC >> ok, ABETTERCOUNTRY deleted. 4 nodes visited
+D IZZ >> ok, IZOOZOO deleted. 8 nodes visited
+D RUT >> ok, RUTABAGA deleted. 7 nodes visited
+A >>
+ATA 39  Antarctica         Antarctica      13120000             0 0.0
+BEL 27  Belgium            Europe             30518      10239000 77.8
+CHN 3   China              Asia             9572900    1277558000 71.4
+DEU 13  Germany            Europe            357022      82164700 77.4
+EGY 15  Egypt              Africa           1001449      68470000 63.3
+GBR 17  United Kingdom     Europe            242900      59623400 77.7
+HTI 30  Haiti              North America      27750       8222000 49.2
+IAA 59  IAMAPPLE           Oceania               10            25 30.1
+ICE 50  ICECREAMSANDWICH   Asia           121212121     999999999 60.0
+IND 4   India              Asia             3287263    1013662000 62.5
+IOU 51  IOWEYOU            North America   10101010     900800700 71.5
+KAA 57  KAACHEW            Africa            987987      10000000 41.4
+KAP 55  KAPISTAN           South America   44884488        345678 63.8
+KUP 56  KUPERTINO          North America     246246    1234567890 75.9
+KZZ 58  KALAMAZOOZOO       North America  100200300    9876543210 68.9
+LBN 32  Lebanon            Asia               10400       3282000 71.3
+NIC 31  Nicaragua          North America     130000       5074000 68.7
+POL 20  Poland             Europe            323250      38653600 73.2
+QAT 35  Qatar              Asia               11000        599000 72.4
+RAN 42  RANDOM             Asia           248248248    9876543210 29.2
+TCA 37  Turks and Caicos Islands North America        430         17000 73.3
+USA 6   United States      North America    9363520     278357000 77.1
+VEN 22  Venezuela          South America     912050      24170000 73.1
+WSM 36  Samoa              Oceania             2831        180000 69.2
+XVI 1   Hex Land           North America          1    1966514816 0.0
+ZYX 41  ZONEYOURXRAY       Asia                 100         98765 25.0
+-->>OPENED Backup.csv file
+-->> CLOSED Backup.csv file
+-->>DATASTORAGE finished
+-->>USERAPP finished
+-->> CLOSED log file
+

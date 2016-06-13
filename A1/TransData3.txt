@@ -1,0 +1,181 @@
+% TransData.txt file
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEST PLAN part 1:  S & A transactions, no I or D transactions
+%
+% Any line beginning with a % is a comment.
+% (UserApp's big switch statement just "does nothing"
+%    when transCode (1st char of line) is a '%'.
+%-------------------------------------------------------
+% SUCCESSFUL SEARCHES
+%
+% TEST: 1st & last countries in input file
+S MEX
+S ATA
+% TEST: root (OK above)
+% TEST: leaves:  leftmost (OK), rightmost, deepest,
+%		 closest to root (OK)
+S ZWE
+S IND
+% TEST: interior nodes: 2 chil, only L ch, only R ch
+S POL
+S LBN
+S VEN
+% TEST: paths:  all L's (OK), all R's (OK), RLRL, LRLR
+S OMN
+S GBR
+%-------------------------------------------------------
+% UNSUCCESSFUL SEARCHES
+%
+% TEST: down to a leaf
+S AAA
+S AXE
+S RUT
+% TEST: off a non-leaf, but diff path-lengths
+S GOD
+S GAP
+S PAN
+S PUT
+S MIX
+S MAX
+% TEST: small letters & digits
+%	(Are mex & digits < A or > Z?)
+%	(NOTE: do NOT toUpper these to make them match)
+S mex
+S ata
+S rus
+S 123
+% TEST: special characters
+S ###
+S :::
+S [[[
+S {{{
+%-------------------------------------------------------
+% ALL
+%
+% TEST: showAll in Alphabetical order using
+%		inOrder Traversal (DO NO SORT !!!)
+A
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEST PLAN part 2:  I & D transactions
+%-------------------------------------------------------
+% TEST:  I or D transactions, and then S and A to see if
+%	the inserts and tombstoning worked.
+% NOTE: S and D and A transactions check for tombstones.
+%	If found, treat them as if they are GONE. . .
+%	(so give an "unsuccessful S/D" message and
+%	do NOT display them for A transactions.
+% NOTE: Testing Deletes. . .
+%	Test plan part 1 already tested the search aspects.
+%	Here we test the tombstoning aspects.
+%
+% IMPORTANT NOTES
+% NOTE: Project MUST using "static deleting" (tombstoning)
+%	and NOT use "dynamic deleting".
+% NOTE: A1 reports # nodes visited - this DOES INCLUDE
+%	tombstoned nodes.
+%-------------------------------------------------------
+% SUCCESSFUL DELETES
+%
+% TEST: leaves
+D KEN
+D OMN
+% TEST: interior nodes - 2 children
+D SOM
+D JPN
+D YEM
+% TEST: nodes below the deleted ones (& with 1 child)
+D FRA
+D RUS
+D ZWE
+% TEST: root
+D MEX
+%-------------------------------------------------------
+% UNSUCCESSFUL DELETES
+%
+% TEST: nodes never were in BST
+D WMU
+D ABC
+D ZZZ
+% TEST: nodes were deleted from BST above.
+%	So they can NOT be found to delete again!
+D MEX
+D KEN
+D FRA
+%-------------------------------------------------------
+% SEARCH
+%
+% TEST: tombstoned nodes - all UNSUCCESSFUL
+S KEN
+S OMN
+S SOM
+S JPN
+S YEM
+S FRA
+S RUS
+S ZWE
+S MEX
+% TEST: good nodes below tombstones - SUCCESSFUL
+S DEU
+S IND
+S XVI
+%-------------------------------------------------------
+% SUCCESSFUL INSERTS
+% THESE INSERTS WERE CHANGED ! ! ! ! !
+% (I made the names all caps so they're easier to spot
+%    during testing).
+%
+% TEST: leftmost and rightmost
+I 40,ABC,ABETTERCOUNTRY,Europe,123456789,1234567890,82.9
+I 41,ZYX,ZONEYOURXRAY,Asia,100,98765,25.0
+%
+% TEST: lowest level - makes tree grow taller
+I 42,RAN,RANDOM,Asia,248248248,9876543210,29.2
+I 43,RUT,RUTABAGA,Africa,98769876,88888,30.1
+I 50,ICE,ICECREAMSANDWICH,Asia,121212121,999999999,60.0
+I 51,IOU,IOWEYOU,North America,10101010,900800700,71.5
+%
+% TEST: hang new node on a tombstoned node
+I 55,KAP,KAPISTAN,South America,44884488,345678,63.8
+I 56,KUP,KUPERTINO,North America,246246,1234567890,75.9
+%
+% TEST: hang new node on a newly inserted node
+I 57,KAA,KAACHEW,Africa,987987,10000000,41.4
+I 58,KZZ,KALAMAZOOZOO,North America,100200300,9876543210,68.9
+I 59,IAA,IAMAPPLE,Oceania,10,25,30.1
+I 60,IZZ,IZOOZOO,Antarctica,0,0,00.0
+%-------------------------------------------------------
+% UNSUCCESSFUL INSERTS
+%
+% NOTE: Won't be UNsuccessful inserts since A1 does NO:
+%   - duplicate-checking, and
+%   - run-out-of-space checking, either because A1 uses
+%	- a dynamic array (ArrayList) OR
+%	- MAX_N = 100 so it's "plenty big"
+%-------------------------------------------------------
+% SEARCH
+%
+S ABC
+S ZYX
+S RAN
+S RUT
+S ICE
+S IOU
+S KAP
+S KUP
+S KAA
+S KZZ
+S IAA
+S IZZ
+%-------------------------------------------------------
+% SUCCESSFUL DELETES of INSERTED nodes
+%
+D ABC
+D IZZ
+D RUT
+%-------------------------------------------------------
+% ALL
+%
+% TEST: A type transaction AGAIN since we've inserted
+%	and "deleted" (tombstoned) nodes.
+% 	NOTE: do NOT display tombstoned nodes.
+A

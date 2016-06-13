@@ -1,0 +1,11 @@
+TransData.txt file contains the actual user test data 
+embedded amongst notes regarding what case they are testing.
+
+All NON-data lines start with % in the first column (i.e.,
+the 1-character transCode returned by uiInput.getTransCode).
+
+So the big SWITCH statement in userApp should watch
+for the '%' case and just do nothing more with that pseudo-
+transaction, as oppsed to 'I', 'D', 'S', 'A' cases which
+call appropriate getter methods in UIinput class and
+call appropriate handler methods in DataStorage class.
