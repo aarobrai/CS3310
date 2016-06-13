@@ -1,0 +1,297 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 1
+RAW DATA FILE:  Test
+HASH FUNCTION:  1  (with maxNHomeLoc:  20)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 11,  N_COLL:  15  --> 26
+AVE SEARCH PATH (for successful):  (11 + 52) / (11 + 15) --> 2.4
+HASH TABLE:
+LOC  CODE DRP LINK 
+000> JPN  013 020
+001>
+002>
+003>
+004> MEX  012 021
+005>
+006>
+007>
+008> LBN  060 -01
+009> SOM  069 -01
+010> KEN  102 031
+011> EGY  030 -01
+012> CHN  023 022
+013>
+014> OMN  042 -01
+015> USA  006 -01
+016>
+017> YEM  090 028
+018> NIC  010 -01
+019>
+020> FRA  019 025
+021> BEL  027 023
+022> GBR  032 024
+023> HTI  039 029
+024> VEN  043 026
+025> POL  020 027
+026> IND  072 -01
+027> DEU  053 030
+028> WSM  037 -01
+029> XVI  001 -01
+030> QAT  035 033
+031> ZWE  132 032
+032> RUS  120 -01
+033> TCA  029 034
+034> ATA  059 -01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 2
+RAW DATA FILE:  Test
+HASH FUNCTION:  2  (with maxNHomeLoc:  20)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 15,  N_COLL:  11  --> 26
+AVE SEARCH PATH (for successful):  (15 + 24) / (15 + 11) --> 1.5
+HASH TABLE:
+LOC  CODE DRP LINK 
+000> LBN  060 -01
+001>
+002> DEU  053 027
+003>
+004>
+005>
+006> ZWE  132 -01
+007> WSM  037 028
+008>
+009> HTI  039 023
+010> QAT  035 029
+011> BEL  027 -01
+012> JPN  013 -01
+013> USA  006 021
+014> MEX  012 025
+015> POL  020 022
+016> TCA  029 -01
+017> CHN  023 020
+018> NIC  010 -01
+019> GBR  032 024
+020> FRA  019 -01
+021> VEN  043 -01
+022> YEM  090 -01
+023> EGY  030 -01
+024> IND  072 026
+025> OMN  042 030
+026> SOM  069 -01
+027> KEN  102 -01
+028> XVI  001 -01
+029> RUS  120 -01
+030> ATA  059 -01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 3
+RAW DATA FILE:  Test
+HASH FUNCTION:  3  (with maxNHomeLoc:  20)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 11,  N_COLL:  15  --> 26
+AVE SEARCH PATH (for successful):  (11 + 47) / (11 + 15) --> 2.2
+HASH TABLE:
+LOC  CODE DRP LINK 
+000>
+001>
+002> GBR  032 -01
+003> RUS  120 -01
+004> QAT  035 -01
+005> USA  006 021
+006>
+007> NIC  010 -01
+008> MEX  012 025
+009> EGY  030 032
+010>
+011>
+012>
+013> HTI  039 031
+014>
+015>
+016> BEL  027 023
+017> YEM  090 028
+018> CHN  023 020
+019>
+020> JPN  013 022
+021> FRA  019 027
+022> VEN  043 024
+023> POL  020 -01
+024> LBN  060 026
+025> IND  072 -01
+026> OMN  042 030
+027> DEU  053 033
+028> SOM  069 029
+029> WSM  037 -01
+030> KEN  102 -01
+031> XVI  001 -01
+032> ZWE  132 -01
+033> TCA  029 034
+034> ATA  059 -01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 4
+RAW DATA FILE:  Test
+HASH FUNCTION:  4  (with maxNHomeLoc:  20)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 20,  N_COLL:  6  --> 26
+AVE SEARCH PATH (for successful):  (20 + 12) / (20 + 6) --> 1.2
+HASH TABLE:
+LOC  CODE DRP LINK 
+000> POL  020 -01
+001> QAT  035 -01
+002> RUS  120 -01
+003> SOM  069 -01
+004> TCA  029 -01
+005> USA  006 025
+006> BEL  027 020
+007> CHN  023 022
+008> DEU  053 023
+009> YEM  090 021
+010> FRA  019 024
+011> GBR  032 -01
+012> HTI  039 -01
+013> IND  072 -01
+014> JPN  013 -01
+015> KEN  102 -01
+016> LBN  060 -01
+017> MEX  012 -01
+018> NIC  010 -01
+019> OMN  042 -01
+020> VEN  043 -01
+021> EGY  030 -01
+022> WSM  037 -01
+023> XVI  001 -01
+024> ZWE  132 -01
+025> ATA  059 -01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 5
+RAW DATA FILE:  Test
+HASH FUNCTION:  1  (with maxNHomeLoc:  30)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 10,  N_COLL:  16  --> 26
+AVE SEARCH PATH (for successful):  (10 + 54) / (10 + 16) --> 2.5
+HASH TABLE:
+LOC  CODE DRP LINK 
+000> JPN  013 038
+001>
+002>
+003>
+004>
+005>
+006>
+007>
+008>
+009>
+010>
+011>
+012> CHN  023 031
+013>
+014> XVI  001 -01
+015>
+016>
+017>
+018> NIC  010 035
+019> SOM  069 -01
+020> FRA  019 034
+021> EGY  030 -01
+022>
+023>
+024> MEX  012 030
+025> USA  006 -01
+026>
+027> YEM  090 039
+028>
+029>
+030> BEL  027 032
+031> GBR  032 033
+032> HTI  039 037
+033> VEN  043 036
+034> POL  020 043
+035> LBN  060 -01
+036> IND  072 -01
+037> OMN  042 -01
+038> DEU  053 040
+039> WSM  037 -01
+040> KEN  102 041
+041> QAT  035 042
+042> ZWE  132 044
+043> RUS  120 -01
+044> TCA  029 045
+045> ATA  059 -01
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 6
+RAW DATA FILE:  Test
+HASH FUNCTION:  1  (with maxNHomeLoc:  30)
+COL RESOL ALG:  1  (Linear, Embedded)
+N_HOME: 6,  N_COLL:  20  --> 26
+AVE SEARCH PATH (for successful):  (6 + 95) / (6 + 20) --> 3.9
+HASH TABLE:
+LOC  CODE DRP
+000> JPN  013
+001> DEU  053
+002> WSM  037
+003> KEN  102
+004> QAT  035
+005> ZWE  132
+006> RUS  120
+007> TCA  029
+008> ATA  059
+009>
+010>
+011>
+012> CHN  023
+013> GBR  032
+014> VEN  043
+015> IND  072
+016> XVI  001
+017>
+018> NIC  010
+019> LBN  060
+020> FRA  019
+021> POL  020
+022> EGY  030
+023> SOM  069
+024> MEX  012
+025> USA  006
+026> BEL  027
+027> HTI  039
+028> YEM  090
+029> OMN  042
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 7
+RAW DATA FILE:  All
+HASH FUNCTION:  1  (with maxNHomeLoc:  240)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 84,  N_COLL:  155  --> 239
+AVE SEARCH PATH (for successful):  (84 + 870) / (84 + 155) --> 4.0
+HASH TABLE: big table --> saved paper by not printing it 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 8
+RAW DATA FILE:  All
+HASH FUNCTION:  1  (with maxNHomeLoc:  260)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 93,  N_COLL:  146  --> 239
+AVE SEARCH PATH (for successful):  (93 + 1231) / (93 + 146) --> 5.5
+HASH TABLE: big table --> saved paper by not printing it 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 9
+RAW DATA FILE:  All
+HASH FUNCTION:  1  (with maxNHomeLoc:  350)
+COL RESOL ALG:  2  (Chaining, Separate)
+N_HOME: 119,  N_COLL:  120  --> 239
+AVE SEARCH PATH (for successful):  (119 + 531) / (119 + 120) --> 2.7
+HASH TABLE: big table --> saved paper by not printing it 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 10
+RAW DATA FILE:  All
+HASH FUNCTION:  1  (with maxNHomeLoc:  240)
+COL RESOL ALG:  1  (Linear, Embedded)
+N_HOME: 64,  N_COLL:  175  --> 239
+AVE SEARCH PATH (for successful):  (64 + 4024) / (64 + 175) --> 17.1
+HASH TABLE: big table --> saved paper by not printing it 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CASE: 11
+RAW DATA FILE:  All
+HASH FUNCTION:  1  (with maxNHomeLoc:  260)
+COL RESOL ALG:  1  (Linear, Embedded)
+N_HOME: 77,  N_COLL:  162  --> 239
+AVE SEARCH PATH (for successful):  (77 + 2960) / (77 + 162) --> 12.7
+HASH TABLE: big table --> saved paper by not printing it 
